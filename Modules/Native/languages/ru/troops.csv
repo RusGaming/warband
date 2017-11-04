@@ -12,7 +12,7 @@ trp_tournament_participants|Участники состязаний
 trp_tournament_participants_pl|Участники состязаний
 trp_tutorial_maceman|Боец с булавой
 trp_tutorial_maceman_pl|Бойцов с булавами
-trp_tutorial_archer|
+trp_tutorial_archer|Лучник
 trp_tutorial_archer_pl|Лучников
 trp_tutorial_swordsman|Мечник
 trp_tutorial_swordsman_pl|Мечников
@@ -72,7 +72,7 @@ trp_swadian_militia|Свадийский ополченец
 trp_swadian_militia_pl|Свадийских ополченцев
 trp_swadian_footman|Свадийский пехотинец
 trp_swadian_footman_pl|Свадийских пехотинцев
-trp_swadian_infantry|
+trp_swadian_infantry|Свадийский воин
 trp_swadian_infantry_pl|Свадийских воинов
 trp_swadian_sergeant|Свадийский сержант
 trp_swadian_sergeant_pl|Свадийских сержантов
@@ -82,8 +82,8 @@ trp_swadian_crossbowman|Свадийский арбалетчик
 trp_swadian_crossbowman_pl|Свадийских арбалетчиков
 trp_swadian_sharpshooter|Свад. меткий арбалетчик
 trp_swadian_sharpshooter_pl|Свад. метких арбалетчиков
-trp_swadian_man_at_arms|
-trp_swadian_man_at_arms_pl|
+trp_swadian_man_at_arms|Свад. тяжелый всадник
+trp_swadian_man_at_arms_pl|Свад. тяжелых всадников
 trp_swadian_knight|Свадийский рыцарь
 trp_swadian_knight_pl|Свадийских рыцарей
 trp_swadian_messenger|Свадийский посыльный
@@ -128,8 +128,8 @@ trp_khergit_skirmisher|Хергитский застрельщик
 trp_khergit_skirmisher_pl|Хергитских застрельщиков
 trp_khergit_horseman|Хергитский всадник
 trp_khergit_horseman_pl|Хергитских всадников
-trp_khergit_horse_archer|
-trp_khergit_horse_archer_pl|
+trp_khergit_horse_archer|Хергит. конный лучник
+trp_khergit_horse_archer_pl|Хергит. конных лучников
 trp_khergit_veteran_horse_archer|Хергит. конный лучник-ветеран
 trp_khergit_veteran_horse_archer_pl|Хергит. конных лучников-ветеранов
 trp_khergit_lancer|Хергитский улан
@@ -288,9 +288,9 @@ trp_spy_walker_1|Горожанин
 trp_spy_walker_1_pl|Горожан
 trp_spy_walker_2|Горожанка
 trp_spy_walker_2_pl|Горожанок
-trp_tournament_master|
-trp_tournament_master_pl|Владельцы арен
-trp_trainer|
+trp_tournament_master|Владелец арены
+trp_tournament_master_pl|Владельцев арены
+trp_trainer|Тренер
 trp_trainer_pl|Тренеров
 trp_constable_hareck|Констебль Харек
 trp_constable_hareck_pl|Констебль Харек
@@ -340,7 +340,7 @@ trp_ransom_broker_9|Посредник
 trp_ransom_broker_9_pl|Посредников
 trp_ransom_broker_10|Посредник
 trp_ransom_broker_10_pl|Посредников
-trp_tavern_traveler_1|
+trp_tavern_traveler_1|Путник
 trp_tavern_traveler_1_pl|Путников
 trp_tavern_traveler_2|Путник
 trp_tavern_traveler_2_pl|Путников
@@ -360,7 +360,7 @@ trp_tavern_traveler_9|Путник
 trp_tavern_traveler_9_pl|Путников
 trp_tavern_traveler_10|Путник
 trp_tavern_traveler_10_pl|Путников
-trp_tavern_bookseller_1|
+trp_tavern_bookseller_1|Продавец книг
 trp_tavern_bookseller_1_pl|Продавцов книг
 trp_tavern_bookseller_2|Продавец книг
 trp_tavern_bookseller_2_pl|Продавцов книг
@@ -936,7 +936,7 @@ trp_town_19_arena_master|Владелец арены
 trp_town_20_arena_master|Владелец арены
 trp_town_21_arena_master|Владелец арены
 trp_town_22_arena_master|Владелец арены
-trp_town_1_armorer|
+trp_town_1_armorer|Торговец доспехами
 trp_town_2_armorer|Торговка доспехами
 trp_town_3_armorer|Торговец доспехами
 trp_town_4_armorer|Торговец доспехами
@@ -958,7 +958,7 @@ trp_town_19_armorer|Торговец доспехами
 trp_town_20_armorer|Торговец доспехами
 trp_town_21_armorer|Торговец доспехами
 trp_town_22_armorer|Торговка доспехами
-trp_town_1_weaponsmith|
+trp_town_1_weaponsmith|Торговец оружием
 trp_town_2_weaponsmith|Торговец оружием
 trp_town_3_weaponsmith|Торговец оружием
 trp_town_4_weaponsmith|Торговец оружием
@@ -1026,7 +1026,7 @@ trp_town_21_merchant|Торговка
 trp_town_22_merchant|Торговец
 trp_salt_mine_merchant|Барезан
 trp_salt_mine_merchant_pl|Барезан
-trp_town_1_horse_merchant|
+trp_town_1_horse_merchant|Торговец лошадьми
 trp_town_2_horse_merchant|Торговец лошадьми
 trp_town_3_horse_merchant|Торговец лошадьми
 trp_town_4_horse_merchant|Торговец лошадьми
