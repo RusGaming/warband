@@ -116,13 +116,13 @@ trp_russian_arty_ai|Русский артиллерист
 trp_russian_arty_ai_pl|Артиллерия(Пушка)
 trp_russian_arty_alt_ai|Русский артиллерист
 trp_russian_arty_alt_ai_pl|Артиллерия(Гаубица)
-trp_austrian_infantry_ai|Немецкий"линейный пехотинец
-trp_austrian_infantry_ai_pl|Немецкая"линейная пехота
-trp_austrian_infantry2_ai|Венгерский" линейный пехотинец
-trp_austrian_infantry2_ai_pl|Венгерская"линейная пехота
+trp_austrian_infantry_ai|Немецкий'линейный пехотинец
+trp_austrian_infantry_ai_pl|Немецкая'линейная пехота
+trp_austrian_infantry2_ai|Венгерский' линейный пехотинец
+trp_austrian_infantry2_ai_pl|Венгерская'линейная пехота
 trp_austrian_grenzer_ai|Австрийский граничар
 trp_austrian_grenzer_ai_pl|Граничары
-trp_austrian_grenadier_ai|Венгерский" гренадер
+trp_austrian_grenadier_ai|Венгерский' гренадер
 trp_austrian_grenadier_ai_pl|Гренадеры
 trp_austrian_infantry_rifle_ai|Австрийский егерь
 trp_austrian_infantry_rifle_ai_pl|Егеря
@@ -275,7 +275,7 @@ trp_british_ship_cannon_pl|Морская артиллерия
 trp_british_ship_marine|Корабельный экипаж
 trp_british_ship_marine_pl|Морской пехотинец, 1-й батальон - Королевская морская пехота.
 trp_british_ship_captain|Корабельный экипаж
-trp_british_ship_captain_pl|Капитан 1-го ранга, "Нептун
+trp_british_ship_captain_pl|Капитан 1-го ранга, 'Нептун
 trp_wellington|Артур Уэлсли, 1-й герцог Веллингтон
 trp_wellington_pl|Генерал
 trp_french_infantry|45-й полк линейной пехоты
@@ -393,7 +393,7 @@ trp_french_ship_cannon_pl|Морская артиллерия
 trp_french_ship_marine|Корабельный экипаж
 trp_french_ship_marine_pl|Морской пехотинец, 24-й батальон экипажей
 trp_french_ship_captain|Корабельный экипаж
-trp_french_ship_captain_pl|Капитан судна, "Отважный
+trp_french_ship_captain_pl|Капитан судна, 'Отважный
 trp_napoleon|Император Наполеон І Бонапарт
 trp_napoleon_pl|Генерал
 trp_prussian_infantry|8-й Бранденбургский пехотный полк

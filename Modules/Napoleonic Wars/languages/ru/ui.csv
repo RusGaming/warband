@@ -560,7 +560,7 @@ ui_everyone_around_me|Солдаты поблизости
 ui_str_hear_me|%s, слушай меня!
 ui_str_and_str|%s и %s
 ui_str_comma_str|%s, %s
-ui_need_to_learn_prisoner_management|Вам нужно изучить навык "Обращение с пленными".
+ui_need_to_learn_prisoner_management|Вам нужно изучить навык 'Обращение с пленными'.
 ui_game_log|Game Log
 ui_recent_messages|Recent Messages
 ui_custom_battle|Случайная битва

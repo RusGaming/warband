@@ -604,7 +604,7 @@ ui_quick|Быстрые
 ui_none|Нет
 ui_change|Изменить
 ui_how_to_change|Как это изменить?
-ui_change_directx_explanation|"Вы можете изменять метод визуализации между DirectX 7 и DirectX 9 в меню запуска которое появляется при каждом запуске игры."
+ui_change_directx_explanation|'Вы можете изменять метод визуализации между DirectX 7 и DirectX 9 в меню запуска которое появляется при каждом запуске игры.'
 ui_dropping_picking_up|Падение%s; Сбор %s.
 ui_dropping|Брошено: %s.
 ui_picking_up|Поднято: %s.

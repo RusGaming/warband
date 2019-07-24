@@ -2180,8 +2180,8 @@ itm_magic_broom|странная метла
 itm_magic_broom_pl|странная метла
 itm_stones_mp|камни
 itm_stones_mp_pl|камней
-itm_invisible_armor|"Новое платье короля"
-itm_invisible_armor_pl|"Нового платья короля"
+itm_invisible_armor|'Новое платье короля'
+itm_invisible_armor_pl|'Нового платья короля'
 itm_dog_bite|еда для собаки
 itm_dog_bite_pl|еда для собаки
 itm_addon_mail4|медвежья кольчуга

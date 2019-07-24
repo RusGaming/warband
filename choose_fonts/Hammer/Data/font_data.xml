@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <FontData width="2048" height="512" padding="4" font_size="75" font_scale="90" line_spacing="100">
-<!-- created by the client-side js BMFont converter -- courtesy of swyter -->
+<!-- created by the client-side js BMFont converter - courtesy of swyter -->
 <FontDetails> 
     <character code="32" page="0" u="2015" v="357" w="2036" h="378" preshift="-10" yadjust="72" postshift="36" />
     <character code="33" page="0" u="2015" v="143" w="2046" h="207" preshift="5" yadjust="50" postshift="41" />
