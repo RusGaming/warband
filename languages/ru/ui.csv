@@ -11,9 +11,9 @@ ui_damage_to_friends|Урон союзникам:
 ui_reduced_to_1_over_2_easiest|Снижен до 1/2 (легче всего)
 ui_reduced_to_3_over_4_easy|Снижен до 3/4 (легко)
 ui_normal|Нормальный
-ui_combat_ai|ИИ сражения:
-ui_combat_speed|Темп боя:
-ui_good|Высокий
+ui_combat_ai|Боевой ИИ:
+ui_combat_speed|Скорость боя:
+ui_good|Хороший
 ui_average_caps|Средний
 ui_poor|Низкий
 ui_faster|Быстрый
@@ -29,11 +29,11 @@ ui_by_relative_enemy_position|Относительно позиции врага
 ui_by_inverse_mouse_movement|По обратному движению мыши
 ui_battle_size|Размер битвы:
 ui_show_attack_direction|Показывать направление атаки
-ui_show_targeting_reticule|Показывать сетку прицеливания
-ui_show_names_of_friendly_troops|Показывать стяги дружественных воинов
-ui_report_damage|Сообщения о уроне
-ui_report_shot_difficulty|Сообщения о сложности выстрела
-ui_difficulty_rating_percentage|Оценка сложности = %d%%
+ui_show_targeting_reticule|Показывать прицел
+ui_show_names_of_friendly_troops|Показывать баннеры над союзниками
+ui_report_damage|Показывать нанесенный урон
+ui_report_shot_difficulty|Показывать сложность выстрела
+ui_difficulty_rating_percentage|Рейтинг сложности = %d%%
 ui_controls|Управление
 ui_video_options|Настройки видео
 ui_done|ОК
@@ -189,12 +189,12 @@ ui_accompanying|Сопровождает
 ui_running_from|Бежит от
 ui_patrolling|Патрулирует
 ui_patrolling_around|Патрулирует вокруг
-ui_holding|Стоит
+ui_holding|Держит позицию
 ui_travelling|Путешествует
 ui_fighting_against|Сражается против
 ui_speed_equals|Скорость: %2.1f
 ui_defenders|Гарнизон:
-ui_prisoners|Пленные:
+ui_prisoners|Военнопленные:
 ui_1_hour|1 час
 ui_n_hours|%d часов
 ui_between_hours|%d - %d часов
@@ -206,9 +206,9 @@ ui_return|Назад
 ui_no_cost|Бесплатно
 ui_rename|Переименовать
 ui_use|Использовать
-ui_destroy|Уничтожить
-ui_destructible_target|Разрушаемая цель
-ui_tutorial_inventory|Это окно торговли. Зажмите клавишу Ctrl и щелкните на вещь, чтобы быстро продать или купить ее.
+ui_destroy|Разрушить
+ui_destructible_target|Разрушаемый объект
+ui_tutorial_inventory|Это экран торговли. Зажмите ctrl нажимая на объект чтобы быстро купить или продать его.
 ui_head_armor|Защита головы: %d
 ui_body_armor|Защита тела: %d
 ui_leg_armor|Защита ног: %d
@@ -225,7 +225,7 @@ ui_dump|Выбросить
 ui_outfit|Одежда
 ui_arms|Оружие
 ui_horse|Лошадь
-ui_food|Еда
+ui_food|Пища
 ui_reclaim_your_sold_goods|Выкупите проданные товары перед покупкой этого!
 ui_return_your_bought_goods|Верните купленные товары перед продажей этого!
 ui_polearm_no_shield|Древковое (без щита)
@@ -293,7 +293,7 @@ ui_starving|Голодают! %d%%
 ui_weekly_cost_value|Недельная плата: %s
 ui_company|Воины: %d / %d
 ui_prisoners_equal_value|Пленные: %d / %d
-ui_choose_prisoners|Выбрать узников
+ui_choose_prisoners|Выбрать пленников
 ui_choose_companions|Выбрать компаньонов
 ui_rescued_prisoners|Спасенные пленники
 ui_captured_enemies|Захваченные враги
@@ -374,7 +374,7 @@ ui_weekly_report|Недельный отчет
 ui_shared_number_experience_within_party|Разделено %d опыта с отрядом.
 ui_got_item_value|Получена вещь: %s.
 ui_game_saved_successfully|Игра успешно сохранена.
-ui_autosaving|Автосохранение...
+ui_autosaving|Автоматическое сохранение...
 ui_quick_saving|Быстрое сохранение...
 ui_cant_quick_save|Во время боя быстрое сохранение невозможно...
 ui_screenshot_taken_to_value|Скриншот сохранен в %s
@@ -411,12 +411,12 @@ ui_environment_shadows|Тени окружающих объектов
 ui_realistic_shadows_on_plants|Реалистичные тени на растениях:
 ui_particle_systems|Системы частиц
 ui_gamma|Гамма монитора:
-ui_character_detail|Качество персонажа:
-ui_character_shadow_detail|Качество тени персонажа:
+ui_character_detail|Детализация персонажей:
+ui_character_shadow_detail|Детализация теней персонажей:
 ui_blood_stains|Пятна крови:
-ui_on|Вкл.
-ui_off|Откл.
-ui_near_player_only|Только около игрока
+ui_on|Вкл
+ui_off|Выкл
+ui_near_player_only|Только рядом с игроком
 ui_default|По умолчанию
 ui_3d_grass|3D трава:
 ui_number_of_ragdolls|Количество рэгдолл:
@@ -481,18 +481,19 @@ ui_map_controls|Управление на карте
 ui_general_controls|Общее управление
 ui_zoom_in|Приблизить
 ui_zoom_out|Отдалить
-ui_wait|Выжидание
-ui_take_screenshot|Взять скриншот
-ui_randomize|Произвольно
+ui_wait|Ждать
+ui_take_screenshot|Снять скриншот
+ui_randomize|В случайном порядке
 ui_hint|Подсказка
-ui_press_left_mouse_button_to_continue|Щелкните левой кнопкой мыши для продолжения...
-ui_loot|Добыча
-ui_cut_short|р
-ui_pierce_short|к
-ui_blunt_short|д
+ui_press_left_mouse_button_to_continue|Нажмите левую кнопку мыши чтобы продолжить...
+ui_loot|Грабить
+ui_chest|Грудь
+ui_cut_short|c
+ui_pierce_short|p
+ui_blunt_short|b
 ui_battle|Битва
 ui_siege|Осада
-ui_troops|Воины:
+ui_troops|Войска:
 ui_loading_module_info_file|Загрузка информации о модуле...
 ui_processing_ini_file|Обработка INI-файла...
 ui_loading_music|Загрузка музыки...
@@ -518,33 +519,33 @@ ui_order_6|Команда 6
 ui_order_button_hold_this_position|Держать эту позицию
 ui_order_button_follow_me|За мной
 ui_order_button_charge|В атаку
-ui_order_button_stand_ground|Стоять
-ui_order_button_retreat|Отступление
-ui_order_button_advance|Продвинуться на 10 шагов
-ui_order_button_fall_back|Отступить на 10 шагов
+ui_order_button_stand_ground|Обороняться
+ui_order_button_retreat|Отступать
+ui_order_button_advance|Вперед на 10 шагов
+ui_order_button_fall_back|Назад на 10 шагов
 ui_order_button_spread_out|Рассыпаться
-ui_order_button_stand_closer|Сдвинуться плотнее
-ui_order_button_mount_horses|Сесть верхом
+ui_order_button_stand_closer|Сомкнуть ряды
+ui_order_button_mount_horses|На коня
 ui_order_button_dismount|Спешиться
 ui_order_button_hold_fire|Не стрелять
 ui_order_button_fire_at_will|Стрелять по готовности
-ui_order_button_use_blunt_weapons|Только дробящее оружие
-ui_order_button_use_any_weapon|Оружие по желанию
-ui_order_button_movement_orders|Команды перемещения
-ui_order_button_formation_orders|Команды построения
-ui_order_button_fire_orders|Команды стрельбы
+ui_order_button_use_blunt_weapons|Использовать только тупое оружие
+ui_order_button_use_any_weapon|Использовать любое оружие
+ui_order_button_movement_orders|Приказы о движении
+ui_order_button_formation_orders|Приказы о построении
+ui_order_button_fire_orders|Приказы о стрельбе
 ui_follow_me_e_|%s, за мной!
 ui_charge_e_|%s, в атаку!!!
-ui_stand_ground_e_|%s, стоять!
-ui_retreat_e_|%s, отступление!
-ui_mount_horses_e_|%s, сесть верхом!
+ui_stand_ground_e_|%s, держать позицию!
+ui_retreat_e_|%s, отступаем!
+ui_mount_horses_e_|%s, на коня!
 ui_dismount_e_|%s, спешиться!
-ui_advance_e_|%s, продвинуться на 10 шагов!
-ui_fall_back_e_|%s, отступить на 10 шагов!
-ui_stand_closer_e_|%s, сдвинуться плотнее!
+ui_advance_e_|%s, вперед на 10 шагов!
+ui_fall_back_e_|%s, назад на 10 шагов!
+ui_stand_closer_e_|%s, сомкнись!
 ui_spread_out_e_|%s, рассыпаться!
-ui_use_blunt_weapons_e_|%s, только дробящее оружие!
-ui_use_any_weapon_e_|%s, оружие по желанию!
+ui_use_blunt_weapons_e_|%s, использовать только тупое оружие!
+ui_use_any_weapon_e_|%s, использовать любое оружие!
 ui_hold_fire_e_|%s, не стрелять!
 ui_fire_at_will_e_|%s, стрелять по готовности!
 ui_hold_this_position_e_|%s, держать эту позицию!
@@ -552,10 +553,10 @@ ui_infantry|Пехота
 ui_archers|Стрелки
 ui_cavalry|Конница
 ui_companions|Компаньоны
-ui_everyone_hear_me|Все, слушайте меня!
+ui_everyone_hear_me|Всем слушать меня!
 ui_everyone|Все
-ui_everyone_around_me|Ближайшие воины
-ui_str_hear_me|%s, слушайте меня!
+ui_everyone_around_me|Солдаты поблизости
+ui_str_hear_me|%s, слушай меня!
 ui_str_and_str|%s и %s
 ui_str_comma_str|%s, %s
 ui_need_to_learn_prisoner_management|Вам необходимо изучить навык содержания пленных, чтобы брать в плен.
@@ -577,31 +578,31 @@ ui_report_is_value_days_old| (Информация устарела на %d дн
 ui_report_is_current| (Текущая информация)
 ui_button_party_member_healthy_total|%s (%d/%d)
 ui_button_party_member_total|%s (%d)
-ui_button_party_member_hero_percentage_wounded|%s (%d%% - ранение)
+ui_button_party_member_hero_percentage_wounded|%s (%d%% - раненные)
 ui_button_party_member_hero_percentage|%s (%d%%)
 ui_percentage_value|%d%%
-ui_full|Полные
-ui_quick|Быстрые
-ui_none|Нет
-ui_change|Изменить
-ui_how_to_change|Как поменять это?
-ui_change_directx_explanation|Вы можете изменять метод визуализации между DirectX 7 и DirectX 9 в меню запуска, которое появляется при каждом запуске игры.
-ui_dropping_picking_up|Выброшено %s; подобрано %s.
-ui_dropping|Брошено: %s.
-ui_picking_up|Поднято: %s.
-ui_unable_to_take|Невозможно взять.
+ui_full|Полная
+ui_quick|Быстрая
+ui_none|Никакой
+ui_change|Изменение
+ui_how_to_change|Как это изменить?
+ui_change_directx_explanation|Вы можете менять метод отображения между DirectX 7 и DirectX 9 нажимая кнопку Настроить в меню запуска, появляющемся при первом запуске игры.
+ui_dropping_picking_up|Бросаем %s; подбираем %s.
+ui_dropping|Бросаем %s.
+ui_picking_up|Подбираем %s.
+ui_unable_to_take|Невозможно взять это.
 ui_age|Возраст
-ui_cannot_be_used_on_horseback|Нельзя использовать верхом
-ui_enable_vertex_shaders2|Метод визуализации:
+ui_cannot_be_used_on_horseback|Использование на коне невозможно
+ui_enable_vertex_shaders2|Метод отображения:
 ui_screen_size2|Разрешение экрана:
 ui_use_desktop_resolution2|Как у рабочего стола
 ui_shadow_quality2|Качество теней:
 ui_m_low2|Низкое
 ui_m_high2|Высокое
 ui_m_ultra_high2|Очень высокое
-ui_off2|Откл.
-ui_group_header|Группа
-ui_group_rename|Переименовать
+ui_off2|Выкл
+ui_group_header|Класс войск
+ui_group_rename|Переименовать группу
 ui_group_1|Пехота
 ui_group_2|Стрелки
 ui_group_3|Конница
@@ -647,7 +648,7 @@ ui_ping|Пинг
 ui_dedicated|Выделенный
 ui_number_of_players|Игроки
 ui_password_protected|Пароль
-ui_connect|Подключение
+ui_connect|Присоединиться
 ui_local_area_network|Локальная сеть
 ui_internet|Интернет
 ui_favorites|Избранное
@@ -689,8 +690,8 @@ ui_requesting_to_join_the_game|Запрос на присоединение к �
 ui_loading|Загрузка...
 ui_group_value_control|Группа %d!
 ui_drop_weapon|Бросить оружие
-ui_multiplayer_message_all|Сообщение всем
-ui_multiplayer_message_team|Сообщение команде
+ui_multiplayer_message_all|Послать сообщение всем
+ui_multiplayer_message_team|Послать сообщение команде
 ui_command_line|Командная строка
 ui_use_ranged_weapon_as_melee|Режим оружия
 ui_send_message_all|Отправить сообщение всем
@@ -698,9 +699,9 @@ ui_send_message_team|Отправить сообщение команде
 ui_select|Выбрать
 ui_context_menu|Контекстное меню
 ui_round_starts_in_value_seconds|Раунд начинается через %d секунд...
-ui_watching_value|Слежение за %s
-ui_capital_spec|ЗРИТ
-ui_capital_dead|ТРУП
+ui_watching_value|Наблюдение за %s
+ui_capital_spec|НАБЛ
+ui_capital_dead|МЕРТ
 ui_instancing_error1|Невозможно заблокировать буфер инстансинга (size: %d), Меш-инстансинг отключен (код ошибки: %d)
 ui_instancing_error2|Не удалось вписать инстанциированые объекты. Меш-инстансинг отключен.
 ui_by_keyboard|Клавишами передвижения
@@ -709,8 +710,8 @@ ui_combat_speed_slower|Медленный
 ui_combat_speed_normal|Нормальный
 ui_combat_speed_faster|Быстрый
 ui_combat_speed_fastest|Очень быстрый
-ui_module_newer_than_application|Модуль который вы выбрали требует более новую версию игры.
-ui_module_older_than_application|Модуль который вы выбрали требует более старую версию игры.
+ui_module_newer_than_application|Модуль который Вы выбрали требует более новую версию игры.
+ui_module_older_than_application|Модуль который Вы выбрали требует более старую версию игры.
 ui_unbalanced|Несбалансированное
 ui_can_crush_through_blocks|Может дробить через блоки
 ui_turn_camera_with_horse|Поворот камеры вместе с лошадью от первого лица:
@@ -719,16 +720,16 @@ ui_widescreen_mode_off|Многоэкранный режим отключен
 ui_notification_cant_upgrade|(Повышение невозможно: недостаточно денег)
 ui_turn_never|Никогда
 ui_turn_ranged_only|Только в дальнем бою
-ui_turn_melee_only|Только в ближнем бою
+ui_turn_melee_only|Только врукопашную
 ui_turn_always|Всегда
 ui_general_options|Общие настройки
-ui_vac_enabled|Античит Valve
+ui_vac_enabled|Включен Valve Anti Cheat
 ui_campaign_ai|ИИ кампании:
 ui_downloading_map|Загрузка карты (%d КБ)
 ui_download_completed|Загрузка завершена.
 ui_server_filter|Фильтр сервера
-ui_has_players|Есть игроки
-ui_is_not_full|Неполный
+ui_has_players|С игроками
+ui_is_not_full|Не заполнен
 ui_is_password_free|Без пароля
 ui_native_only|Только Native
 ui_ping_limit|Предел пинга

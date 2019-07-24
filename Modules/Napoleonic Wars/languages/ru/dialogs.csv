@@ -1,4 +1,4 @@
-dlga_start:companion_talk|Nice to meet you again {Sir/Madam}, How can I help you?.
+dlga_start:companion_talk|Рад видеть Вас снова {сир/мадам}, Как я могу Вам помочь?.
 dlga_companion_talk:companion_talk_equipment|Let me see your equipment.
 dlga_companion_talk_equipment:companion_talk_end|Very well, Here it is.
 dlga_companion_talk_end:companion_talk|Anything else?
@@ -21,6 +21,6 @@ dlga_start:camp_dweller_talk.3|It is a honor to meet you, {Sir/Madam}. How can I
 dlga_camp_dweller_talk:close_window|Nothing, Carry on.
 dlga_camp_dweller_talk:close_window.1|Not at this time Sir, Have a nice evening.
 dlga_camp_dweller_talk:close_window.2|Give me the orders! I shall leave at once.
-dlga_camp_dweller_talk:close_window.3|I am not prepared yet.
-dlga_camp_dweller_talk:close_window.4|Nevermind.
-dlga_start:close_window|Dialog Error. No dialog found.
+dlga_camp_dweller_talk:close_window.3|Я ещё не подготовился.
+dlga_camp_dweller_talk:close_window.4|Не берите в голову.
+dlga_start:close_window|Ошибка диалога, диалог не найден.
